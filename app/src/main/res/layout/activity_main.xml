@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.project6_wiltontuji.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/museus_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/musem_inf" />
+
+        <TextView
+            style="@style/Titulo1"
+            android:text="@string/museu"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/restaurantes_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/rest_inf" />
+
+        <TextView
+            style="@style/Titulo1"
+            android:text="@string/restaurante"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hoteis_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/hotel_inf" />
+
+        <TextView
+            style="@style/Titulo1"
+            android:text="@string/hoteis"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vidanoturna_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/night_inf" />
+
+        <TextView
+            style="@style/Titulo1"
+            android:text="@string/vidaNoturna"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
